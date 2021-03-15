@@ -4,7 +4,7 @@ const { TOKEN, Discord_Channel_Id, Discord_Server_Id, Live_Link} = require('./co
 const ytdl = require('ytdl-core');
 
 client.on("ready", async () => {
-  client.user.setActivity("your status", {
+  client.user.setActivity("your status ", {
   type:"STREAMING",
   url: "https://www.twitch.tv/your channel name", })
   let channel = client.channels.cache.get(Discord_Channel_Id) || await client.channels.fetch(Discord_Channel_Id)
