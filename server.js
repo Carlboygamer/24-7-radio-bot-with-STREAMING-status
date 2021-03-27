@@ -1,4 +1,4 @@
-onst Discord = require('discord.js');
+const Discord = require('discord.js');
 const client = new Discord.Client();
 const { TOKEN, Discord_Channel_Id, Discord_Server_Id, Live_Link} = require('./config.json');
 const ytdl = require('ytdl-core');
